@@ -1,5 +1,6 @@
 .gpt3__header {
     display: flex;
+    justify-content: center;
 }
 
 .gpt3__header-content {
@@ -15,15 +16,15 @@
 .gpt3__header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 62px;
-    line-height: 75px;
+    font-size: 50px;
+    line-height: 60px;
     letter-spacing: -0.04em;
 }
 
 .gpt3__header-content p{
     font-family: var(--font-family);
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 27px;
     color: var(--color-blog);
 
@@ -53,12 +54,12 @@
 }
 
 .gpt3__header-content__input button {
-    flex: 0.6;
+    flex: 0.7;
     width: 100%;
     min-height: 50px; 
     font-family: var(--font-family);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 27px;
     cursor: pointer;
     border-radius: 0px 5px 5px 0px;
