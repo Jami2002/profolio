@@ -13,9 +13,9 @@ const WhatGPT3 = () => {
             <p>Explore The Librairy</p>
           </div>
           <div className="gpt3__whatgpt3-container">
-            <Feature />
-            <Feature />
-            <Feature />
+            <Feature title='Chatbots' text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur qui, quae ut dignissimos nulla eum ex cumque, exercitationem' />
+            <Feature title='Knowledgebase' text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur qui, quae ut dignissimos ' />
+            <Feature title='Education' text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur qui, quae ut dignissimos nulla eum ex cumque, exercitationem' />
           </div>
         </div>
     )
