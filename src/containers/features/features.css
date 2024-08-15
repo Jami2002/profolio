@@ -55,6 +55,10 @@
         margin-top: 2rem ;
     }
 
+    .gpt3__features-content .gpt3__features-container_feature-text {
+        margin-top: 1rem ;
+    }
+
     .gpt3__features-head h1 {
         font-size: 30px;
         line-height: 40px;
