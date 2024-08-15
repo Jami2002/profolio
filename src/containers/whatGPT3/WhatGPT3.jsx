@@ -6,7 +6,7 @@ const WhatGPT3 = () => {
     return(
         <div className="gpt3__whatgpt3 section__margin" id='whgpt3'>
           <div className="gpt3__whatgpt3-feature">
-             <Feature title='What is GPT-3' text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur qui, quae ut dignissimos nulla eum ex cumque, exercitationem' />
+             <Feature title='What is GPT-3' text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur qui, quae ut dignissimos nulla eum ex cumque, exercitationem.ipsum dolor sit amet consectetur adipisicing elit. Aspernatur qui, quae ut dignissimos nulla eum ex cumque, exercitationem' />
           </div>
           <div className="gpt3__whatgpt3_heading">
             <h1 className="gradient_text"> The possibilities are beyond your imagination </h1>

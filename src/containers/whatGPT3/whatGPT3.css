@@ -27,14 +27,14 @@
 }
 
 
-.gpt3__whatgpt3-feature .gpt3__features-container_feature {
-    margin: 10;
-}
-
 .gpt3__whatgpt3-container .gpt3__features-container_feature {
     max-width: 700px;
     flex-direction: column;
     flex: 1;
+}
+
+.gpt3__whatgpt3-container .gpt3__features-container_feature .gpt3__features-container_feature-title {
+    margin-bottom: 1rem;
 }
 
 
@@ -71,7 +71,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items:flex-start;
+    align-items: flex-start;
     margin-top: 2rem;
     flex: 1;
    
@@ -84,12 +84,17 @@
     .gpt3__whatgpt3-container .gpt3__features-container_feature {
         margin: 1rem 0;
     }
+    .gpt3__whatgpt3-feature .gpt3__features-container_feature .gpt3__features-container_feature-title {
+        margin-bottom: 1rem;
+    }
     .gpt3__whatgpt3_heading h1 {
         font-size: 20px;
-        line-height: 35px;
+        line-height: 35px; 
+        max-width: 410px;
     }
     .gpt3__whatgpt3_heading p {
         margin-top: 1rem;
+        max-width: 400px;
     }
     
 }
@@ -101,9 +106,17 @@
     }
 
     .gpt3__whatgpt3_heading h1 {
-        font-size: 28px;
-        line-height: 40px;
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 200px;
     }
+
+    .gpt3__whatgpt3_heading p {
+        font-size: 16px;
+        line-height: 25px; 
+        max-width: 60px;
+    }
+
     .gpt3__whatgpt3-container .gpt3__features-container_feature {
         margin: 1rem 0;
         min-width: 100%;
@@ -114,6 +127,19 @@
     .gpt3__whatgpt3-container .gpt3__features-container_feature {
        margin: 1rem 0;
        min-width: 100%;
-       
+    }
+    
+    .gpt3__whatgpt3_heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .gpt3__whatgpt3_heading h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .gpt3__whatgpt3_heading p {
+        font-size: 14px;
+        line-height: 25px; 
+        max-width: 100%;
     }
 }
